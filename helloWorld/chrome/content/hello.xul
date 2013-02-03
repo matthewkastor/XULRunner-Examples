@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<window title="☭ Hial Atropa!! ☭"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		width="800px"
+		height="500px"><script type="application/javascript" src="chrome://myapp/content/main.js"/>
+
+  <caption label="Hello World"/>
+  <separator/>
+  <button label="Click for more!" oncommand="showMore();"/>
+  <separator/>
+  <description id="more-text" hidden="true">This is a simple XULRunner application. XUL is simple to use and quite powerful and can even be used on mobile devices.</description>
+  
+</window>
