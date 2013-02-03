@@ -1,2 +1,2 @@
-Start "Starting XUL Periodic Table" /MIN "XUL Periodic Table.bat" -jsconsole
+Start "Starting helloWorld" /MIN "helloWorld.bat" -jsconsole
 exit
