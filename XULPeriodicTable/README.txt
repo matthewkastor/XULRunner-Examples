@@ -2,7 +2,7 @@ The XUL Periodic Table's contents were downloaded from http://www.hevanet.com/ac
 
 In the past this content could be viewed in firefox like any other webpage. That is no longer possible, so the content has been changed into a XUL Runner application.
 
-If you want to use the bat files to launch this application on XUL Runner you will need to adjust the paths in them to suit your system and copy XUL Periodic Table.exe into the same folder where xulrunner.exe is. Of course you can launch this app by calling <path to xulrunner>\xulrunner.exe --app application.ini from this directory but, you won't get the fancy icon and convenient clicky bat file. 
+If you want to use the bat files to launch this application on XUL Runner you will need to adjust the paths in them to suit your system and copy XUL Periodic Table.exe into the same folder where xulrunner.exe is. Of course you can launch this app by calling <path to xulrunner>\xulrunner.exe --app application.ini from this directory but, you won't get the fancy icon and convenient clicky bat file. If you're not using xulrunner 18.0.1 you'll have to recreate `XUL Periodic Table.exe` using a copy of `xulrunner-stub.exe` that came with your verson of xulrunner.
 
 All XUL Periodic Table.exe is, is the xulrunner-stub.exe with an application icon injected into it using resourcehacker. The application icon is easy to create using gimp, creating each layer of the image as the different sizes of icon, and exporting the image as an icon. Use the resource hacker to pull the appicon out of the exe and look at it in gimp. It's really easy to make.
 
