@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://myapp/locale/mybrowser.dtd">
+
+<window title  = "&mybrowser.title;"
+  xmlns  = "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  id     = "mybrowser"
+  width  = "800"
+  height = "600">
+
+  <script src="mybrowser.js"/>
+  <hbox>
+    <button id="back" label="&mybrowser.back;" oncommand="back();" disabled="true"/>
+    <button id="forward" label="&mybrowser.forward;" oncommand="forward();" disabled="true"/>
+    <button id="reload" label="&mybrowser.reload;" oncommand="reload();"/>
+    <button id="stop" label="&mybrowser.stop;" oncommand="stop();" disabled="true"/>
+    <textbox id="urlbar" value="" flex="1" onchange="go();"/>
+    <button id="go" label="&mybrowser.go;" oncommand="go();"/>
+  </hbox>
+  <browser flex="1" id="browser" src="" type="content-primary"/>
+  <statusbar>
+    <statusbarpanel id="status" label="" crop="end" flex="1"/>
+    <progressmeter id="progress" mode="determined" value="0%" style="display: none"/>
+    <statusbarpanel id="security" label="" style="display: none"/>
+  </statusbar>
+</window>

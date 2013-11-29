@@ -1,0 +1,2 @@
+content myapp file:chrome/content/
+locale myapp en-US file:chrome/locale/en-US/

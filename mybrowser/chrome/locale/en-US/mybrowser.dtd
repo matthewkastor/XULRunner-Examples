@@ -1,0 +1,7 @@
+<!ENTITY mybrowser.title   "my browser">
+<!ENTITY mybrowser.back    "Back">
+<!ENTITY mybrowser.forward "Forward">
+<!ENTITY mybrowser.reload  "Reload">
+<!ENTITY mybrowser.stop    "Stop">
+<!ENTITY mybrowser.go      "Go">
+<!ENTITY mybrowser.console "Console">
