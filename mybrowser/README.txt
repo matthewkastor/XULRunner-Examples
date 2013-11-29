@@ -1,3 +1,5 @@
+This is an update of Benjamin Smedberg's "mybrowser" example application to make it work with newer versions of XULRunner and Firefox. The original source is available at http://benjamin.smedbergs.us/xulrunner/
+
 This example application was built and run with firefox 25.0.1 It should work with recent versions of xulrunner and continue to work with future versions of xulrunner but there are no guarantees. At any rate, the max version setting in application.ini is set to 200.* and the min version is set to 1.8 although I have absolutely no idea whether or not this works on all those past and future versions. Try it, if it works you're ready to go and if not you can rummage through the literature on mozilla developer network and make a mybrowser application for whatever version xulrunner has gotten to (and give it to the new guys of course). :D
 
 Now, if you are using xulrunner 18.0.1 or higher the following information should work on windows. If you're using other versions or operating systems rest of this information may or may not help much.
