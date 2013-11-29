@@ -17,6 +17,7 @@
     <button id="stop" label="&mybrowser.stop;" oncommand="stop();" disabled="true"/>
     <textbox id="urlbar" value="" flex="1" onchange="go();"/>
     <button id="go" label="&mybrowser.go;" oncommand="go();"/>
+    <button id="showConsole" label="&mybrowser.console;" oncommand="showConsole();"/>
   </hbox>
   <browser flex="1" id="browser" src="" type="content-primary"/>
   <statusbar>
