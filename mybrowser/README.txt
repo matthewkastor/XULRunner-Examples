@@ -8,9 +8,9 @@ If you want to use the bat files to launch this application on XUL Runner you wi
 
 xulrunner-stub.exe comes with XUL Runner. Somewhere on mozilla's developer network I read the directions that the stub is a kind of proxy for xulrunner.exe, to enable us to give our applications a specific name and icon on windows. I don't remember how it finds xulrunner.exe exactly but I do know that if they're in the same directory the stub will launch xulrunner and pass any arguments to it.
 
-All mybrowser.exe is, is the xulrunner-stub.exe with an application icon injected into it using resourcehacker. The application icon is easy to create using gimp, creating each layer of the image as the different sizes of icon, and exporting the image as an icon. Use the resource hacker to pull the appicon out of the exe and look at it in gimp. It's really easy to make.
+All mybrowser.exe is, is the xulrunner-stub.exe with an application icon injected into it using resourcehacker. The application icon is easy to create using gimp, creating each layer of the image as the different sizes of icon, and exporting the image as an icon. Use the resource hacker or Resource Cracker (https://www.pelock.com/products/resource-cracker) to pull the appicon out of the exe and look at it in gimp. It's really easy to make.
 
-http://angusj.com/resourcehacker/
+http://angusj.com/resourcehacker/ or Resource Cracker (https://www.pelock.com/products/resource-cracker)
 http://www.gimp.org/tutorials/Creating_Icons/
 
 You can also create shortcuts to the bat files and modify the shortcuts's properties so they'll use the icon from mybrowser.exe. You can specify that the bat file is to be launched minimized so it doesn't flash across the screen.
